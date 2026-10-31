@@ -1,0 +1,44 @@
+/*Name this external file gallery.css*/
+body{
+		margin: 2%;
+		border: 1px solid black;
+		background-color: #b3b3b3;
+}
+#image{
+    line-height:650px;
+		width: 575px;
+    height: 650px;
+		border:5px solid black;
+		margin:0 auto;
+    background-color: #8e68ff;
+    background-image: url('');
+    background-repeat: no-repeat;
+    color:#FFFFFF;
+    text-align: center;
+    background-size: 100%;
+    margin-bottom:25px;
+    font-size: 150%;
+  background-size:cover;
+}
+.preview{
+		width:10%;
+		margin-left:17%;
+    border: 2px solid black;
+    opacity: 0.5;
+    margin-bottom: 10px;
+
+}
+
+.preview:hover{
+    border: 7px solid #2e2548;
+    opacity: 1;
+    width: 13%;
+    transition: 0.5s;
+}
+
+.preview:focus{
+    border: 7px solid #2e2548;
+    opacity: 1;
+    width: 13%;
+    transition: 0.25s;
+}
